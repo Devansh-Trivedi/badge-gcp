@@ -154,6 +154,5 @@ const canvas = document.querySelector("canvas");
       const url = canvas.toDataURL("image/png;base64");
       a.download = "badge.png";
       a.href = url;
-
       a.click();
     };
